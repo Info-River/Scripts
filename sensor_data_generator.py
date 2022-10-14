@@ -11,6 +11,11 @@ THINGSBOARD_HOST = 'localhost'
 # Data capture and upload interval in seconds. Less interval will eventually hang the DHT22.
 INTERVAL = 3 * 60
 
+data = []
+
+with open('locations/data.json', 'r') as f:
+    data = json.load(f)
+
 sensor_data = {}
 next_reading = time.time()
 client = mqtt.Client()
@@ -52,6 +57,8 @@ try:
             sensor_data['humidity'] = random.randint(0, 100)
             sensor_data['wind'] = wind
             sensor_data['wind_direction'] = wind_direction
+            sensor_data['longitude'] = data[i-1]['longitude']
+            sensor_data['latitude'] = data[i-1]['latitude']
             client.publish('v1/devices/sensorhub/telemetry', json.dumps(sensor_data), 1)
             print(sensor_data)
 

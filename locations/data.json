@@ -1,0 +1,57 @@
+[
+  {
+    "latitude": 40.6318261359168,
+    "longitude": -8.64888489246368,
+    "name": "Associação Humanitária dos Bombeiros Voluntários Aveiro Velhos",
+    "address": "Rua Dr. Mário Sacramento, 3810-104 Aveiro",
+    "type": "First Responder Post"
+  },
+  {
+    "latitude": 40.643884248805,
+    "longitude": -8.65184336900711,
+    "name": "Bombeiros Novos de Aveiro",
+    "address": "Rua Conselheiro Luís de Magalhães, 3800-124 Aveiro",
+    "type": "First Responder Post"
+  },
+  {
+    "latitude": 40.6419595571458,
+    "longitude": -8.6393812899405,
+    "name": "Primeiros a Responder hipotético 1",
+    "address": "Alameda Silva Rocha, 3800-385 Aveiro",
+    "type": "First Responder Post"
+  },
+  {
+    "latitude": 40.6252233482777,
+    "longitude": -8.64652884040879,
+    "name": "Primeiros a Responder hipotético 2",
+    "address": "Rua Direita de Aradas 47 A, 3810-005 Aveiro",
+    "type": "First Responder Post"
+  },
+   {
+    "latitude": 40.6349828182802,
+    "longitude": -8.65538764006487,
+    "name": "Centro Hospitalar Baixo Vouga, Aveiro",
+    "address": "Avenida Artur Ravara 35, 3810-164 Aveiro",
+    "remBeds": 10,
+    "totalBeds": 100,
+    "type": "Hospital"
+  },
+  {
+    "latitude": 40.6320046917993,
+    "longitude": -8.6467756033926,
+    "name": "Centro de SaÃºde de Aveiro",
+    "address": "Viela da Fonte dos Amores 57A, 3810-164 Aveiro",
+    "remBeds": 50,
+    "totalBeds": 100,
+    "type": "Hospital"
+  },
+  {
+    "latitude": 40.6377304078999,
+    "longitude": -8.63620930888828,
+    "name": "Hospital da Luz Aveiro",
+    "address": "Rua do Brasil 21, 3800-009 Aveiro",
+    "remBeds": 75,
+    "totalBeds": 90,
+    "type": "Hospital"
+  }
+]
